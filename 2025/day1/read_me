@@ -1,1 +1,13 @@
+The problem is as follows:
+- We have a circle with a hundred points, which are identified by the number from 0 to 99.
+- the start point is 50
+- The input file contains multiple lines, each line has a 1 word which indicates the direction and number of points that should be passed through.
+  + The direction is indicated by the first character of the word, which is "L" or "R". "L" is used for left movement and "R" is used for right movement.
+  + The number after "L" or "R" indicates the number of points that should be passed through.
 
+To solve the problem, need to do the following things:
+- Extract the information of the direction and the number of points that should be passed through on each step.
+- Handle the case where the number of points that should be passed through is too large, for example, if the number of points that should be passed through is 100, it means that the next position is the same as start position.
+- Find the next position when moving to the left
+- Find the next position when moving to the right
+- The result of the problem should be the number of times that the next position is 0.
